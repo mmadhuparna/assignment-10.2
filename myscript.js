@@ -64,11 +64,11 @@ console.log(a.status());  //status after increasing speed
 var b = new Airplane('', 50, 700); //second object created
 console.log(b.Validate);
 console.log(b.status());
-console.log("increase speed:"+ " "+ b.increaseSpeed(200));
+console.log("increased speed:"+ " "+ b.increaseSpeed(200));
 console.log(b.status());
 
 var c= new Airplane('Boeing676', 120, 550); //third object created
 console.log(c.Validate);
 console.log(c.status());
-console.log("increase speed:"+ " "+ c.increaseSpeed(200));
+console.log("increased speed:"+ " "+ c.increaseSpeed(200));
 console.log(c.status());

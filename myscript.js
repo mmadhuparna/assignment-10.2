@@ -58,17 +58,17 @@ console.log(x.decreaseSpeed(100));
 var a = new Airplane('Boeing312', 100, 1000);  //first object created
 console.log(a.Validate);   //calling the get method for validation
 console.log(a.status());  //calling the status method
-console.log("increase speed by"+ " "+ a.increaseSpeed(200)); //increase speed by 200
+console.log("increased speed:"+ " "+ a.increaseSpeed(200)); //increase speed by 200
 console.log(a.status());  //status after increasing speed
 
 var b = new Airplane('', 50, 700); //second object created
 console.log(b.Validate);
 console.log(b.status());
-console.log("increase speed by"+ " "+ b.increaseSpeed(200));
+console.log("increase speed:"+ " "+ b.increaseSpeed(200));
 console.log(b.status());
 
 var c= new Airplane('Boeing676', 120, 550); //third object created
 console.log(c.Validate);
 console.log(c.status());
-console.log("increase speed by"+ " "+ c.increaseSpeed(200));
+console.log("increase speed:"+ " "+ c.increaseSpeed(200));
 console.log(c.status());
